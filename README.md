@@ -35,4 +35,8 @@
 
 ## 3. Modeling
 ### Augmentation
-- 
+- RandomHorizontalFlip
+- RandomAffine
+- RandomResizedCrop
+- AugMix
+- Normalize
