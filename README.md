@@ -40,3 +40,14 @@
 - RandomResizedCrop
 - AugMix
 - Normalize
+
+### Models
+- EfficientnetB0
+- EfficientnetB3
+- InceptionV3
+- SeResnet26
+- TResnet_XL
+- TResnetV2_L
+- Vit
+- MaxVit_Tiny
+- MaxVit_Nano
