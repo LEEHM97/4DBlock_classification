@@ -50,3 +50,15 @@
 - Vit
 - MaxVit_Tiny
 - MaxVit_Nano
+
+<br>
+
+## 4. Idea
+
+### Remove background
+ - Test data와 달리 Train data에는 배경이 존재하기 때문에 Train data의 배경을 제거 후 학습
+ > 1. bdgModel과 fgdModel 생성
+ > 2. cv2의 grabCut을 활용하여 블록 부분만 grab
+ > 3. 배경 부분은 흰색, 블록 부분은 그대로 남기면서 배경과 블록 분리
+
+### Augmentation
