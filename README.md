@@ -1,8 +1,7 @@
-# 4DBlock_classification - <br>포디블록 구조 추출 AI경진대회 
+# 4DBlock_classification - <br>포디블록 구조 추출
 
-## 1. 대회 설명
+## 1. Task 설명
 - 2D 이미지 내 포디블록의 10가지의 블록 패턴들의 존재 여부를 분류하는 Multi-Label Classification을 수행한다.
- - DACON 사이트: https://dacon.io/competitions/official/236046/overview/description 
 
 <br>
 
