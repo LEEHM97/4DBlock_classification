@@ -61,4 +61,24 @@
  > 2. cv2의 grabCut을 활용하여 블록 부분만 grab
  > 3. 배경 부분은 흰색, 블록 부분은 그대로 남기면서 배경과 블록 분리
 
+<br>
+
 ### Augmentation
+- RandomHorizontalFlip : 블록이 위, 아래가 구분되어있기 때문에 VerticalFlip은 제외해주었다.
+- RandomAffine
+- AugMix
+- PixelDrop
+
+### Ensemble
+
+
+
+<br><br><br><br>
+
+| Encoders      | Loss          | mIoU  |
+| ------------- |:-------------:| -----:|
+| EfficientnetB2      | 0.06575      |   0.7508 |
+| EfficientnetB3   | 0.06269      |    0.7817 |
+| EfficientnetB4     | 0.06193      |    0.7677 |
+| Resnet50    | 0.08719      |    0.6968 |
+| Mit_b3     | 0.08036      |    0.7265 |
