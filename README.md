@@ -71,14 +71,15 @@
 
 ### Ensemble
 
+<br>
+
+## 5.Model Evalutation
 
 
-<br><br><br><br>
-
-| Encoders      | Loss          | mIoU  |
+| Encoders      | Loss          | Acc  |
 | ------------- |:-------------:| -----:|
-| EfficientnetB2      | 0.06575      |   0.7508 |
-| EfficientnetB3   | 0.06269      |    0.7817 |
-| EfficientnetB4     | 0.06193      |    0.7677 |
-| Resnet50    | 0.08719      |    0.6968 |
-| Mit_b3     | 0.08036      |    0.7265 |
+| EfficientnetB3      | 0.02689      |   0.994 |
+| EfficientnetB0   | 0.03112      |    0.9915 |
+| InceptionV3     | 0.03115      |    0.9902 |
+| TResnet    | 0.06879      |    0.9785 |
+| SeResnext26     | 0.1123      |    0.971 |
